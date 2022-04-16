@@ -1,0 +1,45 @@
+p{
+    color: white;
+    font-size: medium;
+    line-height: 20px;
+    text-align: left;
+    
+    
+}
+
+h1{
+    color:white;
+    background-color: grey; width: fit-content;
+}
+
+h2{
+    color: white;
+    background-color: grey; width: fit-content;
+    font-size: large;
+}
+
+h3{
+    font-size: medium;
+    color: black;
+    background-color: yellow;width: fit-content;
+
+
+}
+
+.destacados{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.perfil{
+    color: white;
+    background-color: grey;
+    font-size: large;
+}
+#azul{
+    height: fit-content;
+    background-color:blue; width: fit-content;
+    padding: 20px;
+    border: 2px solid black;
+}
