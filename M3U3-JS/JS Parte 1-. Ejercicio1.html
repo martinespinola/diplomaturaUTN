@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var metros;
+        // var transporte =" ";
+
+        metros = prompt("Ingrese metros")
+
+        if (metros > 0 && metros <= 1000) {
+            document.write("El transporte apropiado es pie")
+        } else if (metros >= 1001 && metros <= 10000) {
+            document.write("El transporte apropiado es bicicleta")
+        } else if (metros >= 10001 && metros <= 30000) {
+            document.write("El transporte apropiado es colectivo")
+        } else if (metros >= 30001 && metros <= 100000) {
+            document.write("El transporte apropiado es auto")
+        } else if (metros >= 100001) {
+            document.write("El transporte apropiado es avion")
+        }
+        console.log(metros)
+    </script>
+
+</body>
+
+</html>
