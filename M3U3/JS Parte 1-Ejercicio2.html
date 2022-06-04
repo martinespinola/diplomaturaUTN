@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var array = [10, 50, 80, 12, 34, 45, 10, 9];
+        var mayor = Math.max.apply(null, array)
+        let index = array.indexOf(mayor)
+        document.write("El mayor valor es", " ", + mayor)
+        console.log(mayor)
+    </script>
+    <br>
+    <script>
+        document.write("La posicion del mayor valor es", " ", + index)
+        console.log(index)
+
+    </script>
+    <br>
+    <script>
+           document.write("El array cuenta con"," ", + array.length," ","valores")
+        console.log(array.length);
+    </script>
+</body>
+
+</html>
