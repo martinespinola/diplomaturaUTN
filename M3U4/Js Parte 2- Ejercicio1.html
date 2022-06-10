@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Parte 2-Ejercicio 1</title>
+    <link rel="stylesheet" href="Js Parte 2- Ejercicio1.css">
+</head>
+
+<body>
+    <h1> Js Parte 2-Ejercicio 1</h1>
+    <h2><u>Consigna</u></h2>
+    <ul>
+        <li class="consigna">Crear un documento html con 3 cuadrados que, al ser clickeados, cambien el color de fondo del documento. Cada cuadrado debera tener un color distinto</li>
+    </ul>
+    <div class="contenedor">
+        <div class="cuadrado red" onclick="cambiarFondo('red')"></div>
+        <div class="cuadrado blue" onclick="cambiarFondo('blue')"></div>
+        <div class="cuadrado green" onclick="cambiarFondo('green')"></div>
+    </div>
+
+    <script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+
+</body>
+
+</html>
